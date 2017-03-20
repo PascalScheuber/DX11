@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Core">
+      <UniqueIdentifier>{b947de31-ec40-4caa-9542-10038ac48ab9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Core\DX11">
+      <UniqueIdentifier>{59f16a39-1f64-45ce-8157-a0e1cfc906d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Primitives">
+      <UniqueIdentifier>{3321a9f5-3854-43e5-b30f-ee6e81ab449b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core">
+      <UniqueIdentifier>{5a2bc401-4478-463c-a549-f15ac0b7fe69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core\DX11">
+      <UniqueIdentifier>{677bb92c-fd66-4e9b-93c9-e7fe55580b77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Primitives">
+      <UniqueIdentifier>{d0b65db2-3c7a-492c-b889-9fc7ece912b0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Src\Engine\Primitives\Cube.cpp">
+      <Filter>Source Files\Primitives</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Engine\Core\Camera.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Engine\Core\DX11\DX11Window.cpp">
+      <Filter>Source Files\Core\DX11</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Engine\Core\DX11\DX11Renderer.cpp">
+      <Filter>Source Files\Core\DX11</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Engine\Core\PointLight.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Engine\Core\Timer.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Engine\Core\AmbientLight.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Src\Engine\Core\Camera.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Engine\Core\DX11\DX11Renderer.h">
+      <Filter>Header Files\Core\DX11</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Engine\Core\DX11\DX11Window.h">
+      <Filter>Header Files\Core\DX11</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Engine\Primitives\iPrimitive.h">
+      <Filter>Header Files\Primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Engine\Primitives\Cube.h">
+      <Filter>Header Files\Primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Engine\DX11Engine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Engine\Core\PointLight.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Engine\Core\Timer.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Engine\Types.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Engine\Shader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Engine\Core\AmbientLight.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
