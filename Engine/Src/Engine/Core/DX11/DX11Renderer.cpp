@@ -412,25 +412,25 @@ int Engine::DX11Renderer::InitializeDefaultShader(LPCWSTR a_ShaderPath, int a_Ma
 		pVS = nullptr;
 	}
 
-	if (pVS != nullptr)
+	if (pPS != nullptr)
 	{
 		pPS->Release();
 		pPS = nullptr;
 	}
 
-	if (pVS != nullptr)
+	if (pVSBlob != nullptr)
 	{
 		pVSBlob->Release();
 		pVSBlob = nullptr;
 	}
 
-	if (pVS != nullptr)
+	if (pPSBlob != nullptr)
 	{
 		pPSBlob->Release();
 		pPSBlob = nullptr;
 	}
 
-	if (pVS != nullptr)
+	if (pLayout != nullptr)
 	{
 		pLayout->Release();
 		pLayout = nullptr;
